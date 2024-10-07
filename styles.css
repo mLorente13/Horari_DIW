@@ -9,7 +9,7 @@ body {
     font-family: sans-serif;
 }
 
-table {
+.schedule {
     border-collapse: collapse;
 }
 
@@ -45,4 +45,10 @@ table {
 
 .daw {
     background-color: #6affad;
+}
+
+@media (max-width: 1440px) {
+    .schedule {
+        width: 95%;
+    }
 }
