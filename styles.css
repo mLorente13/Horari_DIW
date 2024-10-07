@@ -17,12 +17,14 @@ table {
     border: 1px solid rgb(158, 158, 158);
     margin: 0;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px 1.7rem;
     font-size: 1.1rem;
 }
 
-.hour {
+.hour,
+.day {
     font-weight: bold;
+    height: 40px;
 }
 
 .dwec {
